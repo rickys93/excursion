@@ -4,32 +4,37 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./resources/css/style.css">
     <title>Document</title>
 </head>
 <body>
     <header>
-        <div>
-            <h1>Discover hidden places in the world around you</h1>
-            <a class="download-link" href="#">Download Excursion (Coming soon!)</a>
+        <div class="">
+            <h1 class="primary title">Discover hidden places in the world around you</h1>
+            <div class="download-link"><a href="#">Download Excursion (Coming soon!)</a></div>
         </div>
     </header>
     <main>
         <section>
-            <p class="phone-video"><img src="./resources/video/excursion.mp4" alt="Front of phone"></p>
+            <div class="phone-video">
+                <video id="phone-vid" width="400" autoplay loop style="padding: 20px;">
+                    <source src="./resources/video/excursion.mp4" type="video/mp4">
+                    Sorry, your browser doesn't support embedded videos
+                </video>
+            </div>
         </section>
         <section>
             <div>
-                <h2>Your personal travel guide</h2>
-                <p>Excursion remembers places you like, and recommends new points of interest around you.</p>
+                <h2 class="secondary title">Your personal travel guide</h2>
+                <p class="description">Excursion remembers places you like, and recommends new points of interest around you.</p>
             </div>
             <div>
                 <p><img src="./resources/img/camp.webp" alt="Sunrise on mountain campsite"></p>
             </div>
             <div>
                 <p><img src="./resources/img/phone.webp" alt="Phone icon"></p>
-                <h2>Coming soon for iPhone and Android</h2>
-                <a class="download-link" href="#">Download Excursion (Coming soon!)</a>
+                <h2 class="secondary title">Coming soon for iPhone and Android</h2>
+                <div class="download-link"><a href="#">Download Excursion (Coming soon!)</a></div>
             </div>
         </section>
         <footer>
